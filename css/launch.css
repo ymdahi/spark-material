@@ -1,0 +1,18 @@
+.main-container.lesson-launch {
+    margin-left: unset;
+    padding-top: 0px;
+}
+.main-container.lesson-launch #container-header {
+    padding: 40px;
+    min-height: unset;
+}
+.main-container.lesson-launch .container .region-content {
+    max-width: 900px;
+    margin-top: 0px;
+    background-color: var(--bg-p-light);
+    padding: 25px 25px 50px;
+    font-size: 18px;
+}
+.paragraph--view-mode--launch {
+    margin-bottom: 25px;
+}

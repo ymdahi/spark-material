@@ -1,0 +1,42 @@
+:root {
+  --bg-primary: #FAFAFA;
+  --bg-p-light: #FFFFFF;
+  --bg-p-light-2: rgba(0,0,0,0.02);
+  --bg-p-dark: #f5f5f5;
+  --bg-secondary: #3d5afe;
+  --bg-s-light: #0031ca; 
+  --bg-s-dark: #0031ca;
+  --text-on-p: #000000;
+  --text-on-s: #ffffff;
+  --text-alt: #777777;
+  --text-alt-2: #333333;
+  --border-color: rgba(0,0,0,0.06);
+  --link-hover: rgba(0, 0, 0, 0.04);
+  --link-active-hover: rgba(0, 0, 0, 0.1);
+
+}
+
+.bg-primary {
+  background: #FAFAFA;
+}
+.bg-p-light {
+  background: #FFFFFF;
+}
+.bg-p-dark {
+  background: #c7c7c7;
+}
+.bg-secondary {
+  background: #3d5afe;
+}
+.bg-s-light {
+  background: #8187ff;
+}
+.bg-s-dark {
+  background: #0031ca;
+}
+.text-on-p {
+  color: #000000;
+}
+.text-on-s {
+  color: #ffffff;
+}
