@@ -12,7 +12,16 @@
     background-color: var(--bg-p-light);
     padding: 30px 30px 50px;
     font-size: 18px;
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.07);
 }
 .paragraph--view-mode--launch {
     margin-bottom: 25px;
+}
+
+.paragraph--type--simple-text-block.paragraph--view-mode--launch h2,
+.paragraph--type--simple-text-block.paragraph--view-mode--launch h3,
+.paragraph--type--simple-text-block.paragraph--view-mode--launch h4,
+.paragraph--type--simple-text-block.paragraph--view-mode--launch h5,
+.paragraph--type--simple-text-block.paragraph--view-mode--launch h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
