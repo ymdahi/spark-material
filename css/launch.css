@@ -8,7 +8,7 @@
 }
 .main-container.lesson-launch .container .region-content {
     max-width: 900px;
-    margin-top: 0px;
+    /* margin-top: 0px; */
     background-color: var(--bg-p-light);
     padding: 30px 30px 50px;
     font-size: 18px;
@@ -24,4 +24,11 @@
 .paragraph--type--simple-text-block.paragraph--view-mode--launch h5,
 .paragraph--type--simple-text-block.paragraph--view-mode--launch h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph--type--simple-text-block.paragraph--view-mode--launch h2 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+.paragraph--type--simple-text-block.paragraph--view-mode--launch p {
+    line-height: 1.8em;
 }
