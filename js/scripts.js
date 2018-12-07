@@ -33,11 +33,6 @@
         }
       );
 
-      // collapse event for content blocks
-      $('a.content-block-collapse').on('click', function() {
-        $('.paragraph .card-richmedia').slideToggle();
-      });
-
     }
   };
 
@@ -101,6 +96,11 @@
 
 
 (function ($) {
+
+  // collapse event for content blocks
+  $('a.content-block-collapse').on('click', function() {
+    $('.paragraph .card-richmedia').slideToggle();
+  });
 
   // handles minimization of main sidebar nav on non-mobile screens
 
