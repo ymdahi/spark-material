@@ -592,7 +592,8 @@ nav.tabs ul.nav > li > a:hover {
   margin-bottom: 6px;
   color: #777;
 }
-.list-card.list-card-lg .views-field .views-label  {
+.list-card.list-card-lg .views-field .views-label,
+.list-card.list-card-lg .views-label  {
   font-size: unset;
   margin-bottom: 10px;
   font-weight: 300;

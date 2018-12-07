@@ -13,7 +13,8 @@
     background-color: var(--bg-p-light);
     padding: 30px;
     font-size: 18px;
-    box-shadow: 0 0 5px 0px rgba(0,0,0,0.07)
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.07);
+    border-radius: 5px;
 }
 .paragraph--view-mode--launch {
     margin-bottom: 25px;
