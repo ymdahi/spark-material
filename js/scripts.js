@@ -100,6 +100,9 @@
   // collapse event for content blocks
   $('a.content-block-collapse').on('click', function() {
     $('.paragraph .card-richmedia').slideToggle();
+    $(this).text(function(i, text){
+      return text === "Collapse All" ? "Expand All" : "Collapse All";
+    })
   });
 
   // handles minimization of main sidebar nav on non-mobile screens
