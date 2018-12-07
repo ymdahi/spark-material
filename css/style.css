@@ -586,7 +586,8 @@ nav.tabs ul.nav > li > a:hover {
 .list-card.list-card-lg .views-field {
   padding: 15px;
 }
-.list-card .views-field .views-label {
+.list-card .views-field .views-label,
+.list-card .views-label {
   display: block;
   font-size: 12px;
   margin-bottom: 6px;
