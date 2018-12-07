@@ -11,6 +11,8 @@
   --text-alt: #777777;
   --text-alt-2: #333333;
   --border-color: rgba(0,0,0,0.06);
+  --border-color-medium: rgba(0,0,0,0.16);
+  --border-color-dark: rgba(0,0,0,0.46);
   --link-hover: rgba(0, 0, 0, 0.04);
   --link-active-hover: rgba(0, 0, 0, 0.1);
 
