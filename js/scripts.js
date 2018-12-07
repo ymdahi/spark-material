@@ -33,6 +33,11 @@
         }
       );
 
+      // collapse event for content blocks
+      $('a.content-block-collapse').on('click', function() {
+        $('.paragraph .card-richmedia').slideToggle();
+      });
+
     }
   };
 
