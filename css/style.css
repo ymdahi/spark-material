@@ -511,10 +511,6 @@ nav.tabs ul.nav > li > a:hover {
   margin: auto;
   border-radius: 50%;
 }
-.card-richmedia.p15 {
-  border-bottom: 1px solid;
-  border-bottom-color: var(--border-color);
-}
 .card-supporttext {
   padding: 15px;
   color: #555;
@@ -541,9 +537,6 @@ nav.tabs ul.nav > li > a:hover {
   padding: 9px 15px;
   font-size: 14px;
   color: #555;
-}
-.card-supplementalactions.p15 {
-  padding: 15px;
 }
 .card-supplementalactions .card-action-left {
   float: left;
@@ -578,6 +571,9 @@ nav.tabs ul.nav > li > a:hover {
   box-shadow: 0 0 5px 0px rgba(0,0,0,0.07);
   border-radius: 5px;
 }
+.list-card.list-card-horz .card-richmedia {
+  padding: 15px;
+}
 .list-card .views-field {
   padding: 10px 15px;
   border-bottom: 1px solid;
@@ -587,14 +583,14 @@ nav.tabs ul.nav > li > a:hover {
   padding: 15px;
 }
 .list-card .views-field .views-label,
-.list-card .views-label {
+.list-card > .views-label {
   display: block;
   font-size: 12px;
   margin-bottom: 6px;
   color: #777;
 }
 .list-card.list-card-lg .views-field .views-label,
-.list-card.list-card-lg .views-label  {
+.list-card.list-card-lg > .views-label  {
   font-size: unset;
   margin-bottom: 10px;
   font-weight: 300;
