@@ -9,7 +9,7 @@
 .main-container.lesson-launch .container .region-content {
     max-width: 900px;
 }
-.main-container.lesson-launch .container .region-content .bs-region--top {
+.main-container.lesson-launch .container .region-content .bs-region--top .region-wrapper {
     background-color: var(--bg-p-light);
     padding: 30px;
     font-size: 18px;
@@ -21,6 +21,9 @@
 }
 .paragraph--view-mode--launch {
     margin-bottom: 25px;
+}
+.paragraph--view-mode--launch:last-of-type {
+    margin-bottom: 0px;
 }
 
 .paragraph--type--simple-text-block.paragraph--view-mode--launch h2,
