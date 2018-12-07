@@ -82,12 +82,6 @@ a.card-btn:focus {
   text-decoration: none;
 }
 
-/**
- * Utilities
- */
-.p15 {
-  padding: 15px;
-}
 
 /** 
  * Header 
@@ -621,7 +615,8 @@ a[data-readmore-toggle] {
   display: inline-block;
 }
 
-.field-label-above {
+.field-label-above,
+.field--label {
   font-weight: 500;
   color: #777;
   margin-bottom: 15px;

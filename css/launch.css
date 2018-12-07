@@ -10,7 +10,7 @@
     max-width: 900px;
     /* margin-top: 0px; */
     background-color: var(--bg-p-light);
-    padding: 30px 30px 50px;
+    padding: 30px;
     font-size: 18px;
     box-shadow: 0 0 5px 0px rgba(0,0,0,0.07);
 }
