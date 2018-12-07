@@ -557,9 +557,11 @@ nav.tabs ul.nav > li > a:hover {
 .card-supplementalactions .card-action-right .action-statistic {
   text-align: right;
   color: #999;
+  padding: 8px;
 }
 .card-supplementalactions .card-action-right .action-statistic > i {
   vertical-align: bottom;
+  font-size: 20px;
 }
 
 /** List Card **/
