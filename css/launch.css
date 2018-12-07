@@ -22,9 +22,6 @@
 .paragraph--view-mode--launch {
     margin-bottom: 25px;
 }
-.paragraph--view-mode--launch:last-of-type {
-    margin-bottom: 0px;
-}
 
 .paragraph--type--simple-text-block.paragraph--view-mode--launch h2,
 .paragraph--type--simple-text-block.paragraph--view-mode--launch h3,
