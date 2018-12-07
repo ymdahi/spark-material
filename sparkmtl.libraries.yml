@@ -3,6 +3,7 @@ global-styling:
     theme:
       css/style.css: {}
       css/launch.css: {}
+      css/utilities.css: {}
       css/pallete-white.css: {}
   js:
     js/scripts.js: {}
